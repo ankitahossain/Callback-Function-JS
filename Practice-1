@@ -1,0 +1,20 @@
+eight(commerce)
+
+function eight(someWords){
+    console.log("I have completed class eight");
+    someWords();
+}
+
+
+
+function science(){
+    console.log("I want to take science");
+}
+
+function commerce(){
+    console.log("I want to take commerce")
+}
+
+function arts(){
+    console.log("I want to take arts")
+}
