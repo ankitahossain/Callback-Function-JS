@@ -1,0 +1,13 @@
+// Double the numbers of an array
+
+const givenArray=[1,2,3,4,5];
+
+function changeArray(arr,doublethenumbers){
+    for(let i=0;i<arr.length;i++){
+        arr[i]=doublethenumbers(arr[i]);
+    }
+} 
+
+changeArray(givenArray,x=>x*2)
+
+console.log(givenArray);
