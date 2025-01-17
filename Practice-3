@@ -1,0 +1,17 @@
+ function display(num){
+    console.log(num);
+ }
+
+//  setTimeout(display,3000,6);
+// setTimeout((x)=>{
+//  console.log(`Meet my friend ${x}`)
+// },3000,"John")
+
+// setTimeout(function(){
+//     console.log("how are you doing")
+// },4000)
+
+// setTimeout(function (username1,username2){
+//     console.log(`Good morning ${username1} and ${username2}`)
+// },5000,"Sara","Jack");
+
