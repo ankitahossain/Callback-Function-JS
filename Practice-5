@@ -1,0 +1,191 @@
+function day1(funcRef) {
+   setTimeout(() => {
+      console.log("exam1")
+      funcRef();
+   }, Math.random() * 1000)
+
+}
+
+function day2(funcRef) {
+   setTimeout(() => {
+      console.log("exam2")
+      funcRef();
+   }, Math.random() * 2000)
+
+}
+function day3(funcRef) {
+   setTimeout(() => {
+      console.log("exam3")
+      funcRef();
+   }, Math.random() * 500)
+
+}
+function day4(funcRef) {
+   setTimeout(() => {
+      console.log("exam4")
+      funcRef();
+   }, Math.random() * 600)
+
+}
+
+function day5(funcRef) {
+   setTimeout(() => {
+      console.log("exam5")
+      funcRef();
+   }, Math.random() * 900)
+
+}
+
+function day6(funcRef) {
+   setTimeout(() => {
+      console.log("exam6")
+      funcRef();
+   }, Math.random() * 1000)
+
+}
+
+function day7(funcRef) {
+   setTimeout(() => {
+      console.log("exam7")
+      funcRef()
+   }, Math.random() * 100)
+
+}
+function day8(funcRef) {
+   setTimeout(() => {
+      console.log("exam8")
+      funcRef();
+   }, Math.random() * 5000)
+
+}
+function day9(funcRef) {
+   setTimeout(() => {
+      console.log("exam9")
+      funcRef();
+   }, Math.random() * 5100)
+
+}
+
+function day10(funcRef) {
+   setTimeout(() => {
+      console.log("exam10")
+      funcRef();
+   }, Math.random() * 6000)
+
+}
+
+function day11(funcRef) {
+   setTimeout(() => {
+      console.log("exam11")
+      funcRef();
+   }, Math.random() * 8000)
+
+}
+
+function day12(funcRef) {
+   setTimeout(() => {
+      console.log("exam12")
+      funcRef();
+   }, Math.random() * 500)
+
+}
+
+function day13(funcRef) {
+   setTimeout(() => {
+      console.log("exam13")
+      funcRef();
+   }, Math.random() * 400)
+
+}
+
+function day14(funcRef) {
+   setTimeout(() => {
+      console.log("exam14")
+      funcRef();
+   }, Math.random() * 2000)
+
+}
+
+function day15(funcRef) {
+   setTimeout(() => {
+      console.log("exam15")
+      funcRef();
+   }, Math.random() * 100)
+
+}
+
+function day16(funcRef) {
+   setTimeout(() => {
+      console.log("exam16")
+      funcRef();
+   }, Math.random() * 300)
+
+}
+
+function day17(funcRef) {
+   setTimeout(() => {
+      console.log("exam17")
+      funcRef();
+   }, Math.random() * 1000)
+
+}
+function day18(funcRef) {
+   setTimeout(() => {
+      console.log("exam18")
+      funcRef();
+   }, Math.random() * 600)
+
+}
+function day19(funcRef) {
+   setTimeout(() => {
+      console.log("exam19")
+      funcRef();
+   }, Math.random() * 300)
+
+}
+function day20() {
+   setTimeout(() => {
+      console.log("exam20")
+   }, Math.random() * 300)
+
+}
+
+day1(() => {
+   day2(() => {
+      day3(() => {
+         day4(() => {
+            day5(() => {
+               day6(() => {
+                  day7(() => {
+                     day8(() => {
+                        day9(() => {
+                           day10(() => {
+                              day11(() => {
+                                 day12(() => {
+                                    day13(() => {
+                                       day14(() => {
+                                          day15(() => {
+                                             day16(() => {
+                                                day17(() => {
+                                                   day18(() => {
+                                                      day19(() => {
+                                                         day20();
+                                                      })
+                                                   })
+                                                })
+                                             })
+                                          })
+                                       })
+                                    })
+                                 })
+                              })
+                           })
+                        })
+                     })
+                  })
+               })
+            });
+         });
+      });
+   })
+});
